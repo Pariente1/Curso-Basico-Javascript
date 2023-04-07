@@ -1,0 +1,41 @@
+Valores primitivos. 
+
+40 : numero
+
+"Diego de granda" : String
+
+True o False : Booleano
+
+null y undefined : Son valore vacios o "placeholder"
+
+Valores no primitivos.
+
+[1,2,3] : Array, es un tipo objeto
+
+{nombre: Diego} : objeto. 
+
+Para saber que tipo de valor es, tengo que ir a consola y poner "typeof" antes del valor que quiero saber su identidad. 
+
+Por ejemplo:
+
+Si pongo: typeof 40
+Me contestara: "number"
+
+typeof Oscar
+"undefined"
+
+typeof True
+"Boolean"
+
+typeof null
+"object"
+
+typeof undefined
+"undefined"
+
+typeof []
+"object"
+
+
+
+
