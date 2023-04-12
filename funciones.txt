@@ -1,0 +1,40 @@
+Que son las funciones?
+
+Son bloques de codigo que solucionan un problema especifico para ser re-utilizados. 
+
+Existen dos tipos de funciones:
+
+//Declarativas
+
+Se usa la palabra reservada de JS que es function. 
+
+Luego se le da el nombre a la funcion.
+
+De ahi los parametros que estan envueltos en parentesis (), son variables propias de la funcion y deberan utilizarse en el contenido. Hacen referencia a los argumentos de la invocacion.
+
+El contenido que esta envuelto por llaves {}
+contendra las linea de codigo correspondientes a la logica del problema.
+
+y el valor retornado. Es un unico valor que devuelve la funcion cuando es llamada. Se lo especifica por la palabra reservada return. Si no existe, la funcion devolvera undefined por defecto.
+
+function miFuncion() {
+    return 3;
+}
+
+//De expresion
+
+Se le llama funciones expresivas o anonimas que consisten en guardar la funcion de una variable. Tienen la misma declaracion e invocacion que las funciones declarativas. La diferencia consiste en no especificar un nombre en la funcion, sino que utiliza el nombre de la variable. 
+
+Declaracion
+var suma = function (a,b){
+    return a + b
+}
+
+invocacion
+var resultado = suma (2,2)
+
+console.log(resultado) // 4
+
+
+
+
