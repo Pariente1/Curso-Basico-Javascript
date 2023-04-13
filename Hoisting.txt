@@ -1,0 +1,7 @@
+Que es el Hoisting?
+
+Es un comportamiento de JS, en el que las declaraciones de varaibales y funciones se mueven o elevan al principio del scope.
+
+En otras palabras, aunque las variables o funciones se declaren despues de su uso,  JS las trata como si hubieran sido declaradas al principio del scope.
+
+Esto significa que se pueden usar antes de que se declaren formalmente en el codigo.
