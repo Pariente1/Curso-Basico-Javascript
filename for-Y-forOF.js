@@ -12,9 +12,9 @@ Por ejemplo, si queremos los 10 primeros números, sabemos que el ciclo se repet
 Cómo utilizar el ciclo for
 La estructura del ciclo for es la siguiente:*/
 
-for (condición) {
+/* for (condición) {
     // Bloque de código
-}
+} */
 
 /* La condición consta de tres partes:
 
@@ -73,10 +73,10 @@ for (var elemento of array) {
 }
 /* Por convención, se escribe la variable elemento en singular con respecto al nombre del array. Por ejemplo, si el nombre del array es datos, el nombre de la variable de cada elemento sería dato, y así sucesivamente.
  */
-for (var dato of datos) { ... }
+/* for (var dato of datos) { ... }
 for (var name of names) { ... }
 for (var number of numbers) { ... }
-for (var el of elements) { ... }
+for (var el of elements) { ... } */
 /* Limitaciones del ciclo for … of
 El ciclo for ... of solo accede al valor de cada uno de los elementos del array. Por consiguiente, si quieres cambiar el array original, no podrás, porque necesitas su índice para acceder y cambiar su valor.
 
